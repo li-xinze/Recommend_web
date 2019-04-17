@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+    <title>电影</title>
+	
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"  type="text/css">
+	
+	<!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	
+	<!-- Owl Carousel Assets -->
+    <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="owl-carousel/owl.theme.css" rel="stylesheet">
+	
+	<!-- Custom Fonts -->
+    <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css"  type="text/css">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/star-rating.css" media="all" type="text/css"/>
+    <link rel="stylesheet" href="css/themes/krajee-fa/theme.css" media="all" type="text/css"/>
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="js/star-rating.js" type="text/javascript"></script>
+    <script src="js/themes/krajee-fa/theme.js" type="text/javascript"></script>
+	<!-- jQuery and Modernizr-->
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+	<!--Top-->
+	<nav id="top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<strong>为课程作业而建站，个人</strong>
+				</div>
+				<div class="col-md-6">
+					<ul class="list-inline top-link link">
+						<li><a href="index.html"><i class="fa fa-home"></i> 主页</a></li>
+						<li><a href="contact.html"><i class="fa fa-comments"></i> 联系</a></li>
+						<li><a href="#"><i class="fa fa-question-circle"></i> 帮助</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!--Navigation-->
+    <nav id="menu" class="navbar container">
+		<div class="navbar-header">
+			<button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+			<a class="navbar-brand" href="#">
+				<div class="logo"><span>Movied DB</span></div>
+			</a>
+		</div>
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="/">发现</a></li>
+				<li><a href="#" onClick="javaScript:history.go(-1)">推荐</a></li>
+					<div class="dropdown-menu">
+						<div class="dropdown-inner">
+							<ul class="list-unstyled">
+								<li><a href="/login">登陆</a></li>
+								<li><a href="/register">注册</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">短片 <i class="fa fa-arrow-circle-o-down"></i></a>
+					<div class="dropdown-menu">
+						<div class="dropdown-inner">
+							<ul class="list-unstyled">
+								<li><a href="archive.html">华语</a></li>
+								<li><a href="archive.html">美国</a></li>
+								<li><a href="archive.html">欧洲</a></li>
+								<li><a href="archive.html">韩国</a></li>
+								<li><a href="archive.html">其它</a></li>
+							</ul>
+						</div> 
+					</div>
+				</li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">分类 <i class="fa fa-arrow-circle-o-down"></i></a>
+					<div class="dropdown-menu" style="margin-left: -203.625px;">
+						<div class="dropdown-inner">
+							<ul class="list-unstyled">
+								<li><a href="archive.html">动作</a></li>
+								<li><a href="archive.html">冒险</a></li>
+								<li><a href="archive.html">动画</a></li>
+								<li><a href="archive.html">儿童</a></li>
+								<li><a href="archive.html">喜剧</a></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li><a href="archive.html">犯罪</a></li>
+								<li><a href="archive.html">纪实</a></li>
+								<li><a href="archive.html">戏剧</a></li>
+								<li><a href="archive.html">幻想</a></li>
+								<li><a href="archive.html">黑色电影</a></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li><a href="archive.html">恐怖</a></li>
+								<li><a href="archive.html">音乐剧</a></li>
+								<li><a href="archive.html#">悬疑</a></li>
+								<li><a href="archive.html#">浪漫</a></li>
+								<li><a href="archive.html">科幻</a></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li><a href="archive.html">惊悚</a></li>
+								<li><a href="archive.html">战争</a></li>
+								<li><a href="archive.html#">西部片</a></li>
+								<li><a href="archive.html#">其它</a></li>
+								
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li><a href="archive.html"><i class="fa fa-cubes"></i> 小组</a></li>
+				<li><a href="contact.html"><i class="fa fa-envelope"></i> 联系我们</a></li>
+			</ul>
+			<ul class="list-inline navbar-right top-social">
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+				<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+	<!-- Header -->
+	
+	<!-- /////////////////////////////////////////Content -->
+	<div id="page-content" class="single-page container">
+		<div class="row">
+			<div id="main-content" class="col-md-8">
+				<div class="box">
+					<div class="wrap-vid">
+						<img width="100%" height="400" src='<%= path %>' ></img>
+					</div>
+					
+					<div class="line"></div>
+					<h1 class="vid-name"><a href="#"><%= name %></a></h1>
+					<div class="info">
+						<form action="good1" method="post" name="argform" id="argform">
+							<input type="hidden" name="star" id="1" value="0"/>
+							<input type="hidden" name="movie_id" id="2" value=<%= movie_id %> >
+							<input type="submit" name="argsubmit" style="display:none"/>
+						</form>
+							<form>
+        <input type="text" class="kv-gly-heart rating-loading" value="2" data-size="xs" title="">
+        <br>
+       </form>
+					</div>
+					<h4>简介</h4>
+					<h5><p style="margin-top: 20px"><%= content %></p></h5>
+					<div class="vid-tags">
+						<% tags.forEach(function(tag) { %>
+						<a href="#"><%= tag %></a>
+						<% }) %>
+					</div>
+					<div class="line"></div>
+
+
+<script>
+    $(document).on('ready', function () {
+        $('.kv-gly-heart').rating({
+            containerClass: 'is-heart',
+            defaultCaption: '{rating} hearts',
+            starCaptions: function (rating) {
+                return rating == 1 ? 'One heart' : rating + ' hearts';
+            },
+            filledStar: '<i class="glyphicon glyphicon-heart"></i>',
+            emptyStar: '<i class="glyphicon glyphicon-heart-empty"></i>'
+        });
+        $('.kv-gly-heart').on(
+                'change', function () {
+                	document.getElementById("1").value = $(this).val();
+                	document.getElementById("argform").submit();
+                    console.log('Rating selected: ' + $(this).val());
+                });
+    });
+</script>		
+					<div class="comment">
+						<h3>发表评论</h3>
+						<form action'/post' method='post'>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<input type="hidden"  name="entry[title]" value="movie1" >
+										<textarea name="entry[body]"  class="form-control" rows="10" cols="25" required="required"
+										placeholder=>请输入</textarea>
+									</div>						
+									<button type="submit" class="btn btn-4 btn-block" value='Post' >
+								评论</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				
+				<div class="box">
+					<div class="box-header header-natural">
+						<h2>相关电影</h2>
+					</div>
+					<div class="box-content">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="wrap-vid">
+									<div class="zoom-container">
+										<div class="zoom-caption">
+											<span></span>
+											<a href="single.html">
+												<i class="fa fa-play-circle-o fa-5x" style="color: #fff"></i>
+											</a>
+											<p>Video's Name</p>
+										</div>
+										<img src="images/2.jpg" />
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="wrap-vid">
+									<div class="zoom-container">
+										<div class="zoom-caption">
+											<span>Youtube</span>
+											<a href="single.html">
+												<i class="fa fa-play-circle-o fa-5x" style="color: #fff"></i>
+											</a>
+											<p>Video's Name</p>
+										</div>
+										<img src="images/2.jpg" />
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="wrap-vid">
+									<div class="zoom-container">
+										<div class="zoom-caption">
+										
+											<a href="single.html">
+												<i class="fa fa-play-circle-o fa-5x" style="color: #fff"></i>
+											</a>
+											<p>be a</p>
+										</div>
+										<img src="images/2.jpg" />
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="sidebar" class="col-md-4">
+				<!---- Start Widget ---->
+				<div class="widget wid-follow">
+					<div class="heading"><h4>Movie DB</h4></div>
+					<div class="content">
+						
+						<img src="images/movielogo.jpg" />
+					</div>
+				</div>
+				<!---- Start Widget ---->
+				<div class="widget wid-post">
+					<div class="heading"><h4>同类电影</h4></div>
+					<div class="content">
+						<div class="post wrap-vid">
+							<div class="zoom-container">
+								<div class="zoom-caption">
+									<a href="single.html">
+										<i class="fa fa-play-circle-o fa-5x" style="color: #fff"></i>
+									</a>
+									
+								</div>
+								<img src="images/1.jpg" />
+							</div>
+							<div class="wrapper">
+								<h5 class="vid-name"><a href="#">Video's Name</a></h5>
+								<div class="info">
+									<h6>By <a href="#">Kelvin</a></h6>
+									<span><i class="fa fa-heart"></i>1,200</span>
+								</div>
+							</div>
+						</div>
+						<div class="post wrap-vid">
+							<div class="zoom-container">
+										<div class="zoom-caption">
+											
+											<a href="single.html">
+												<i class="fa fa-play-circle-o fa-5x" style="color: #fff"></i>
+											</a>
+											
+										</div>
+										<img src="images/2.jpg" />
+									</div>
+							<div class="wrapper">
+								<h5 class="vid-name"><a href="#">Video's Name</a></h5>
+								<div class="info">
+									<h6>By <a href="#">Kelvin</a></h6> 
+									<span><i class="fa fa-heart"></i>1,200</span>
+								</div>
+							</div>
+						</div>
+						<div class="post wrap-vid">
+							<div class="zoom-container">
+								<div class="zoom-caption">
+									
+									<a href="single.html">
+										<i class="fa fa-play-circle-o fa-5x" style="color: #fff"></i>
+									</a>
+									
+								</div>
+								<img src="images/3.jpg" />
+							</div>
+							<div class="wrapper">
+								<h5 class="vid-name"><a href="#">Video's Name</a></h5>
+								<div class="info">
+									<h6>By <a href="#">Kelvin</a></h6>
+									<span><i class="fa fa-heart"></i>1,200</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!---- Start Widget ---->
+				<div class="widget ">
+					<div class="heading"><h4>今日最佳</h4></div>
+					<div class="content">
+						<div class="wrap-vid">
+							<div class="zoom-container">
+								<div class="zoom-caption">
+									<a href="single.html">
+										<i class="fa fa-play-circle-o fa-5x" style="color: #fff"></i>
+									</a>
+									
+								</div>
+								<img src="images/1.jpg" />
+							</div>
+							<h3 class="vid-name"><a href="#">Video's Name</a></h3>
+							<div class="info">
+								<h5>By <a href="#">Kelvin</a></h5>
+								<span><i class="fa fa-heart"></i>1,200</span>
+							</div>
+						</div>
+						<div class="wrap-vid">
+							<div class="zoom-container">
+								<div class="zoom-caption">
+									
+									<a href="single.html">
+										<i class="fa fa-play-circle-o fa-5x" style="color: #fff"></i>
+									</a>
+									
+								</div>
+								<img src="images/2.jpg" />
+							</div>
+							<h3 class="vid-name"><a href="#">Video's Name</a></h3>
+							<div class="info">
+								<h5>By <a href="#">Kelvin</a></h5>
+								<span><i class="fa fa-heart"></i>1,200</span>
+							</div>
+						</div>
+						<div class="wrap-vid">
+							<div class="zoom-container">
+								<div class="zoom-caption">
+									
+									<a href="single.html">
+										<i class="fa fa-play-circle-o fa-5x" style="color: #fff"></i>
+									</a>
+									
+								</div>
+								<img src="images/3.jpg" />
+							</div>
+							<h3 class="vid-name"><a href="#">Video's Name</a></h3>
+							<div class="info">
+								<h5>By <a href="#">Kelvin</a></h5> 
+								<span><i class="fa fa-heart"></i>1,200</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="wrap-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-footer footer-1">
+						<div class="footer-heading"><h1><span style="color: #fff;">Movie DB</span></h1></div>
+						<div class="content">
+							<p>再也不会错过最新影讯，现在开始订阅哦我们吧！</p>
+							<strong>电子邮箱:</strong>
+							<form action="#" method="post">
+								<input type="text" name="your-name" value="" size="40" placeholder="您的邮箱地址" />
+								<input type="submit" value="订阅！" class="btn btn-3" />
+							</form>
+						</div>
+					</div>
+					<div class="col-md-4 col-footer footer-2">
+						<div class="footer-heading"><h4>标签</h4></div>
+						<div class="content">
+							<a href="#">动作</a>
+							<a href="#">冒险</a>
+							<a href="#">动画</a>
+							<a href="#">儿童</a>
+							<a href="#">戏剧</a>
+							<a href="#">黑色电影</a>
+							<a href="#">犯罪</a>
+							<a href="#">纪实</a>
+							<a href="#">音乐剧</a>
+							<a href="#">西部片</a>
+							<a href="#">戏剧</a>
+							<a href="#">奇幻</a>
+							<a href="#">恐怖</a>
+							<a href="#">悬疑</a>
+							<a href="#">浪漫</a>
+							<a href="#">科幻</a>
+							<a href="#">战争</a>
+							<a href="#">其它</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-footer footer-3">
+						<div class="footer-heading"><h4>友情链接</h4></div>
+						<div class="content">
+							<ul>
+								<li><a href="https://movielens.org">https://movielens.org</a></li>
+								<li><a href="http://www.imdb.com">http://www.imdb.com</a></li>
+								<li><a href="https://www.themoviedb.org">https://www.themoviedb.org</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copy-right">
+			<p>Copyright &copy; 2018.面向对象26小组 All rights reserved.</p>
+		</div>
+	</footer>
+	<!-- Footer -->
+	
+	<!-- JS -->
+	<script src="owl-carousel/owl.carousel.js"></script>
+    <script>
+    $(document).ready(function() {
+      $("#owl-demo-1").owlCarousel({
+        autoPlay: 3000,
+        items : 1,
+        itemsDesktop : [1199,1],
+        itemsDesktopSmall : [400,1]
+      });
+	  $("#owl-demo-2").owlCarousel({
+        autoPlay: 3000,
+        items : 3,
+        
+      });
+    });
+    </script>
+	
+	
+	<script type="text/javascript" src="js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
+	<script type="text/javascript">
+    $('.form_datetime').datetimepicker({
+        //language:  'fr',
+        weekStart: 1,
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		startView: 2,
+		forceParse: 0,
+        showMeridian: 1
+    });
+	$('.form_date').datetimepicker({
+        language:  'fr',
+        weekStart: 1,
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		startView: 2,
+		minView: 2,
+		forceParse: 0
+    });
+	$('.form_time').datetimepicker({
+        language:  'fr',
+        weekStart: 1,
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		startView: 1,
+		minView: 0,
+		maxView: 1,
+		forceParse: 0
+    });
+</script>
+</body>
+</html>
