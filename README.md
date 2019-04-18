@@ -13,7 +13,8 @@ A website which provides search and recommendation of movies.
     1. 刻画用户画像
     2. 实现用户画像和书籍特征的匹配
     3. 为用户推荐其最可能感兴趣的10本书
-详情信息请见project_report.pdf
+    
+**详情信息请见project_report.pdf**
 ### 网站截图：
    homepage
    ![mainpage](https://github.com/Dennis-lixinze/Recommend_web/raw/master/display/%E5%9B%BE1.png)
