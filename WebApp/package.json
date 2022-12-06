@@ -8,7 +8,7 @@
   "dependencies": {
     "bcrypt": "2.0.1",
     "ejs": "*",
-    "express": "3.x",
+    "express": "4.x",
     "leveldown": "^4.0.1",
     "levelup": "^3.0.1",
     "redis": "0.7.2"
